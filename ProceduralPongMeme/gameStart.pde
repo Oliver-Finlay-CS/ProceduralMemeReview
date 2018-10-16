@@ -6,7 +6,7 @@ void gameStart() {
   ballStartY = height/2;
   ballX = ballStartX;
   ballY = ballStartY;
-  ballDiameter = width/70; //Must pick one dimension for both ellipse diameters, for a circle
+  ballDiameter = width/6; //Must pick one dimension for both ellipse diameters, for a circle
 
   paddleWidthRatio = ballDiameter/2;
   paddle[0] = paddleWidthRatio; 

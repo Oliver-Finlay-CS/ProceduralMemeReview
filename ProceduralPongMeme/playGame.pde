@@ -1,6 +1,6 @@
 void playGame () {
 
-  background(#E9FF03); //Yellow
+  background(0); //This here be black
 
   //Calcualting "next" ball position
   //Section necessary when calling functions so passing current arguements
@@ -60,12 +60,12 @@ void playGame () {
   //println (mouseY);
 
   //Draws the ball
-  fill(0); //Black
+  fill(#ff00ff); //This here be fuchsia 
   ellipse(ballX, ballY, ballDiameter, ballDiameter);
 
   //Drawing Paddles
-  fill(#FF00FF); //Purple
+  fill(#ffffff); //This here be white
   rect(player[0], player[1], paddle[0], paddle[1]);
   rect(player[2], player[3], paddle[0], paddle[1]);
-  fill(0); //Reseting to Black
+  fill(#00ffff); //This here be aqua
 }

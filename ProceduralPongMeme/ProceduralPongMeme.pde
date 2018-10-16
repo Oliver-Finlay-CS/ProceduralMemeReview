@@ -14,7 +14,7 @@ Boolean start = false; //Variable for Game Starting, New to P_Pong
 int ballX, ballY;
 int ballStartX, ballStartY;
 int ballDiameter;
-int ballMoveX = 1, ballMoveY = 1;
+int ballMoveX = 3, ballMoveY = 4;
 int paddleWidthRatio; //Variable is being repeated in setup() figuring good width of paddle, half of ballDiameter
 //Reason: do not bounce of the edge of the paddle
 int paddleHeightRatio = 10;

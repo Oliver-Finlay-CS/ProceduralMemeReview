@@ -1,6 +1,6 @@
 void startStop() {
   if (keyPressed) {
-    if (key == ' ') {
+    if (key == '7') {
       start = true;
     }
   }
