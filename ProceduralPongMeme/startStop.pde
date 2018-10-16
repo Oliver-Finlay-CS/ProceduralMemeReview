@@ -6,7 +6,7 @@ void startStop() {
   }
 
   if (keyPressed) { // ESC is a keyCoded Varaible and used to quit a game, ASCII is a little easier
-    if (key == 'q' || key == 'Q') {
+    if (key == 'p' || key == 'P') {
       println ("The canvas has exited.");
       exit();
     }
